@@ -1,5 +1,6 @@
 git config branch.master.remote heroku
 rake generate
+rake deploy
 git add -A
 git commit -m 'update'
 git push heroku master
