@@ -1,5 +1,4 @@
 git config branch.master.remote origin
-rake generate
 rake deploy
 git add .
 git commit -m 'update'
