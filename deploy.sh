@@ -1,12 +1,12 @@
 git config branch.master.remote heroku
 rake generate
 rake deploy
-git add -A
-git commit -m 'update'
+git add .
+git commit -am 'update'
 git push heroku master
 git config branch.master.remote origin
-git add -A
-git commit -m 'update'
+git add .
+git commit -am 'update'
 git push origin master
 git config branch.master.remote heroku
 
