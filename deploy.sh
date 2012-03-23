@@ -8,6 +8,7 @@ git commit -am 'update'
 git push -f origin master
 echo Backing up github pages...
 cd ../
+git config branch.remote origin
 git add .
 git commit -am 'update'
 git push origin master
