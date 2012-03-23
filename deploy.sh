@@ -1,7 +1,7 @@
-@echo Deploying github pages...
-git checkout master
+echo Deploying github pages...
 rake generate
 cd ~/blog_DID/public/
+git init
 git remote add origin git@github.com:sealand210/sealand210.github.com.git
 git add .
 git commit -am 'update'
