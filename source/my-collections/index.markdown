@@ -76,7 +76,7 @@ It's a very handy tool for recording and editing sound track（mp3, acc, ogg etc
 
 ## 
 
-{% img left /images/istatmenus.png istat menus%}
+{% img left /images/istat.png istat menus%}
 ###[Istat menus for mac](http://bjango.com/mac/istatmenus/)
 
 A tool that monitor almost any thing for you, including network traffics, memory usage, cpu temperature and battery conditions                       
@@ -93,7 +93,7 @@ A very well designed and very good looking tool that analyse your file structure
 
 ## 
 
-{% img left /images/iphoneexplorer.png iphone explorer%}
+{% img left /images/iphoneex.png iphone explorer%}
 ###[Iphone explorer for mac](http://www.macroplant.com/iexplorer/)
 
 A simple but very useful tool that access your iphone file system, install afc after jailbreak you can also access your iphone's root directory. 
