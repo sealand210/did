@@ -14,6 +14,7 @@ git commit -am 'update'
 git push origin master
 echo Deploying heroku pages...
 git config branch.remote heroku
+git remote set-url origin git@heroku.com:d-i-d.git
 git push heroku master
 
 
