@@ -9,12 +9,10 @@ footer: false
 
 
 Useful and practical stuff that I like 
-##  
-
-
+## 
 
 {% img left /images/savevideo.png savevideo.me%}
-###[savevideo.me](http://savevideo.me)
+###[save video](http://savevideo.me)
 
 A convenient web tool translate video page url from youtube, vimeo, yahoo etc., to a video direct download url.
 
