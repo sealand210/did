@@ -59,7 +59,7 @@ This is the tool I've been looking for years, it helps you create rules for outg
 {% img left /images/snagit.png snagit%}
 ###[Snagit for mac](http://www.techsmith.com/snagit.html)
 
-This is a powerful screen capture tool, it has various capture settings, and you also use it to edit your capture.
+This is a powerful screen capture tool, it has various capture settings, and you can also use it to edit your capture.
                        
 
 
