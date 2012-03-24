@@ -34,5 +34,9 @@ Professor Robert J. Shiller give a course about financial markets, including fou
 ###[The origins of pleasure](http://www.ted.com/talks/lang/en/paul_bloom_the_origins_of_pleasure.html)
 
 Why do we like an original painting better than a forgery? Psychologist Paul Bloom argues that human beings are essentialists.(TED Talk)
-                       
+## 
 
+{% img left /images/sahami.png pingdom tools%}
+###[Programming Methodology](http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111)
+
+A great and fun course from professor Mehran Sahami at Stanford, talking about the basic and fundamantal stuff about programming.
