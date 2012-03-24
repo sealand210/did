@@ -5,7 +5,7 @@ footer: false
 
 ---
 
-# Software collections
+# Software Collections
 
 
 Great apps that running on MacOSX

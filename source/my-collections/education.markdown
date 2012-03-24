@@ -5,7 +5,7 @@ footer: false
 
 ---
 
-# Education collections
+# Education Collections
 
 
 Best online free education that I like
@@ -19,7 +19,7 @@ Sir Ken Robinson makes an entertaining and profoundly moving case for creating a
 ## 
 
 {% img left /images/yalepaul2.png Psychology%}
-###[Introduction to Psychology](http://academicearth.org/courses/introduction-to-psychology)
+###[Psychology](http://academicearth.org/courses/introduction-to-psychology)
 
 A very interesting course from Paul Bloom at Yale, it's one of my favorite course, answering many interesting questions.
 ## 

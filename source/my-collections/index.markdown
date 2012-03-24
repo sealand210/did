@@ -5,19 +5,19 @@ footer: false
 
 ---
 
-# My collections
+# My Collections
 Stuff that I like
 ## 
 
 {% img left /images/colorpicker.png Webtools%}
-###[Web tools](/my-collections/webtools.html)
+###[Web Service](/my-collections/webtools.html)
 
-Convenient free web tools, including video url translating tool, a HSL color picker, a webpage loading test tool and more.
+Convenient free web services, including video url translating tool, a HSL color picker, a webpage loading test tool and more.
 
 ## 
 
 {% img left /images/cleanmymac.png Mac tools%}
-###[Mac tools](/my-collections/software.html)
+###[Software](/my-collections/software.html)
 
 A set of great apps that running on mac osx, powerful and easy to use, most of them are not free, but it is worth to pay for. 
 
