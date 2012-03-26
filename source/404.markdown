@@ -1,0 +1,7 @@
+---
+layout: page
+title: "Oops, error code 404"
+footer: false
+---
+
+###The requested URL was not found on this server.
