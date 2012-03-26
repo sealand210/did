@@ -21,7 +21,7 @@ Sir Ken Robinson makes an entertaining and profoundly moving case for creating a
 {% img left /images/yalepaul2.png Psychology%}
 ###[Psychology](http://academicearth.org/courses/introduction-to-psychology)
 
-A very interesting course from Paul Bloom at Yale, it's one of my favorite course, answering many interesting questions.
+A very interesting course from professor Paul Bloom at Yale, it's one of my favorite course, answering many interesting questions.
 ## 
 
 {% img left /images/yalefinance.png pingdom tools%}
@@ -39,4 +39,4 @@ Why do we like an original painting better than a forgery? Psychologist Paul Blo
 {% img left /images/sahami.png pingdom tools%}
 ###[Programming Methodology](http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111)
 
-A great and fun course from professor Mehran Sahami at Stanford, talking about the basic and fundamantal stuff about programming.
+A great and fun course from professor Mehran Sahami at Stanford, talking about the basic and fundamantal stuff of programming.
