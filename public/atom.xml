@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Dreaming in digital]]></title>
-  <link href="http://dreaming-in-digital.com/atom.xml" rel="self"/>
-  <link href="http://dreaming-in-digital.com/"/>
-  <updated>2012-03-27T01:29:36+08:00</updated>
-  <id>http://dreaming-in-digital.com/</id>
+  <link href="http://dreaming-in-digital.me/atom.xml" rel="self"/>
+  <link href="http://dreaming-in-digital.me/"/>
+  <updated>2012-03-28T15:22:39+08:00</updated>
+  <id>http://dreaming-in-digital.me/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
     <email><![CDATA[mail2evan@me.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Why blogging in english]]></title>
-    <link href="http://dreaming-in-digital.com/blog/2012/03/20/why-blogging-in-english/"/>
+    <link href="http://dreaming-in-digital.me/blog/2012/03/20/why-blogging-in-english/"/>
     <updated>2012-03-20T19:09:00+08:00</updated>
-    <id>http://dreaming-in-digital.com/blog/2012/03/20/why-blogging-in-english</id>
+    <id>http://dreaming-in-digital.me/blog/2012/03/20/why-blogging-in-english</id>
     <content type="html"><![CDATA[<p>I am blogging in english is not because I hate chinese, contrarily, I think it is the best language for human being. We don’t need to invent a million words to explain everything, for example pig meat is pig meat in chinese, but in english pig meat is pork, the reason is the pronunciation of pig meat is too long for a high frequently used word, so people have to invent a new word.  Where chinese just need a two character word with two simple syllable each meaning pig and meat. there are thousands of  similar examples in english especially in expert language.  As a result english speaker end up with a dictionary containing a million different words to explain the whole human history where  chinese speaker only need 8 thousand chinese charater to create a million different meanings. On the surface chinese character is complicate, but deep inside It’s simple and elegant. Compare to English it has a higher entropy, which means it carries more information within same word length. I am blogging in English just because it’s a wildly used language in present.</p>
 
 <!-- more -->
@@ -29,18 +29,18 @@
   
   <entry>
     <title type="html"><![CDATA[The very first post]]></title>
-    <link href="http://dreaming-in-digital.com/blog/2012/03/16/the-very-first-post/"/>
+    <link href="http://dreaming-in-digital.me/blog/2012/03/16/the-very-first-post/"/>
     <updated>2012-03-16T16:35:00+08:00</updated>
-    <id>http://dreaming-in-digital.com/blog/2012/03/16/the-very-first-post</id>
+    <id>http://dreaming-in-digital.me/blog/2012/03/16/the-very-first-post</id>
     <content type="html"><![CDATA[<p>In the past two days I&#8217;ve been working my butt off to set up this blog. It&#8217;s not my first time to set up a website, but it is my first time to set up a octopress site, and host it on a online <code>Rack PasS</code>, and let it pass through china&#8217;s <code>GFW</code> (a network filter that blocking foreign websites which china government consider as a threat).</p>
 
-<p><img class="left" src="http://dreaming-in-digital.com/images/logo.png" width="200" height="200" title="logo" ></p>
+<p><img class="left" src="http://dreaming-in-digital.me/images/logo.png" width="200" height="200" title="logo" ></p>
 
 <p>I have also slightly alter the site theme. I like the default theme, so I just made a logo using photoshop and slightly changed the background. The difficult part is modify the <code>SASS</code> to let the page header adjust it’s size automatically, so my blog looks better on smartphones or any other handheld device. Octopress is very well organized, but even still, I had no clue what SASS is, and how to modify it.  After guessing and testing all the SASS code of the default theme I kind of figure out how it works. After a few hours of twisting I finally get it done.<!-- more --></p>
 
 <p>Now, take a look at this beautiful syntax highlitght engine it has:</p>
 
-<figure class='code'><figcaption><span> (test.js)</span> <a href='http://dreaming-in-digital.com/downloads/code/test.js'>download</a></figcaption>
+<figure class='code'><figcaption><span> (test.js)</span> <a href='http://dreaming-in-digital.me/downloads/code/test.js'>download</a></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
