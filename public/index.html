@@ -82,6 +82,104 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2012/03/31/install-ubuntu-on-pandaboard/">Install Ubuntu on Pandaboard in OSX</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-31T15:22:00+08:00" pubdate data-updated="true">Mar 31<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/30/setting-lightdm/">Setting Ubuntu LightDM</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-30T23:57:00+08:00" pubdate data-updated="true">Mar 30<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Ubuntu Oneiric comes with a new display/login manager - <code>LightDM</code>. Just like setting <code>GDM</code>, <code>XDM</code> or <code>KDM</code> etc., LightDM can also be set to auto-login by creating a custom file named <code>lightdm.conf</code> under <code>/etc/lightdm</code> directory. This way you can also define your preferred auto-login session.</p>
+
+<p>So, get to a Terminal and run:</p>
+
+<pre><code>gksudo gedit /etc/lightdm/lightdm.conf
+</code></pre>
+
+<p>If you are doing it from the console, you would need to use &#8216;nano&#8217; instead of &#8216;gedit&#8217; and &#8216;sudo&#8217; instead o &#8216;gksudo&#8217;.</p>
+
+<p>In the file that opens up, enter this text:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>[SeatDefaults]
+</span><span class='line'>autologin-user=&lt;USERNAME&gt;
+</span><span class='line'>autologin-user-timeout=0
+</span><span class='line'>user-session=ubuntu
+</span><span class='line'>greeter-session=unity-greeter</span></code></pre></td></tr></table></div></figure>
+
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2012/03/30/setting-lightdm/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2012/03/20/why-blogging-in-english/">Why Blogging in English</a></h1>
     
     
@@ -180,6 +278,14 @@
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/03/31/install-ubuntu-on-pandaboard/">Install ubuntu on Pandaboard in OSX</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/30/setting-lightdm/">Setting Ubuntu LightDM</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/03/20/why-blogging-in-english/">Why blogging in english</a>
