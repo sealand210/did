@@ -7,8 +7,6 @@ sidebar: false
 categories: Pandaboard ubuntu 
 ---
 
-Pandaboard
-
 ### Download the Prebuilt binaries
 
 * [Ubuntu 11.10 Oneiric Ocelot desktop](http://cdimage.ubuntu.com/releases/11.10/release/ubuntu-11.10-preinstalled-desktop-armel+omap4.img.gz)
@@ -27,3 +25,6 @@ Next, unzip the gz file, then using dd command copy img file to SD card:
 	sudo dd bs=4m if=ubuntu-netbook-10.10-preinstalled-netbook-armel+omap4.img of=/dev/disk2
 	
 it will take up to 30 mins depending on the img file size.
+
+## references:
+<http://omappedia.org/wiki/Ubuntu_Pre-built_Binaries_Guide>

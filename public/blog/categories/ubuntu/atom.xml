@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ubuntu | Dreaming in digital]]></title>
   <link href="http://dreaming-in-digital.me/blog/categories/ubuntu/atom.xml" rel="self"/>
   <link href="http://dreaming-in-digital.me/"/>
-  <updated>2012-03-31T15:56:35+08:00</updated>
+  <updated>2012-03-31T15:59:46+08:00</updated>
   <id>http://dreaming-in-digital.me/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
@@ -18,9 +18,7 @@
     <link href="http://dreaming-in-digital.me/blog/2012/03/31/install-ubuntu-on-pandaboard/"/>
     <updated>2012-03-31T15:22:00+08:00</updated>
     <id>http://dreaming-in-digital.me/blog/2012/03/31/install-ubuntu-on-pandaboard</id>
-    <content type="html"><![CDATA[<p>Pandaboard</p>
-
-<h3>Download the Prebuilt binaries</h3>
+    <content type="html"><![CDATA[<h3>Download the Prebuilt binaries</h3>
 
 <ul>
 <li><a href="http://cdimage.ubuntu.com/releases/11.10/release/ubuntu-11.10-preinstalled-desktop-armel+omap4.img.gz">Ubuntu 11.10 Oneiric Ocelot desktop</a></li>
@@ -47,6 +45,10 @@
 </code></pre>
 
 <p>it will take up to 30 mins depending on the img file size.</p>
+
+<h2>references:</h2>
+
+<p><a href="http://omappedia.org/wiki/Ubuntu_Pre-built_Binaries_Guide">http://omappedia.org/wiki/Ubuntu_Pre-built_Binaries_Guide</a></p>
 ]]></content>
   </entry>
   
