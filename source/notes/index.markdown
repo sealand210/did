@@ -13,3 +13,7 @@ footer: false
 ## 
 
 ###[部署octopress](/notes/deploy-octopress.html)
+
+## 
+
+###[安装ubuntu到pandaboard](/notes/install-ubuntu-on-pandaboard.html)

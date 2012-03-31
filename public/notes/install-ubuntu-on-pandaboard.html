@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Oops, error code 404 - Dreaming in digital - A blog by Evan Hung</title>
+  <title>Install ubuntu on Pandaboard - Dreaming in digital - A blog by Evan Hung</title>
   <meta name="author" content="Evan Hung">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dreaming-in-digital.me/404.html">
+  <link rel="canonical" href="http://dreaming-in-digital.me/notes/install-ubuntu-on-pandaboard.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -45,7 +45,7 @@
 
 </head>
 
-<body   >
+<body   class="no-sidebar"  >
   <header role="banner"><hgroup>
   <h1><a href="/">Dreaming in digital</a></h1>
   
@@ -75,48 +75,77 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Oops, Error Code 404</h1>
+    
+      <h1 class="entry-title">Install Ubuntu on Pandaboard</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-31T15:22:00+08:00" pubdate data-updated="true">Mar 31<span>st</span>, 2012</time>
+        
+      </p>
     
   </header>
-  
-  <h3>The requested URL was not found on this server.</h3>
 
-  
-</article>
 
+<div class="entry-content"><h3>Download the Prebuilt binaries</h3>
+
+<ul>
+<li><a href="http://cdimage.ubuntu.com/releases/11.10/release/ubuntu-11.10-preinstalled-desktop-armel+omap4.img.gz">Ubuntu 11.10 Oneiric Ocelot desktop</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.10/release/ubuntu-11.10-preinstalled-server-armel+omap4.img.gz">Ubuntu 11.10 Oneiric Ocelot server</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.04/release/">Ubuntu 11.04 Natty Narwal Netbook</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.04/release/">Ubuntu 11.04 Natty Narwal Headless</a></li>
+<li><a href="http://cdimage.ubuntu.com/ubuntu-netbook/ports/releases/10.10/release/">Ubuntu 10.10 Maverick Meerkat</a></li>
+</ul>
+
+
+<!-- more -->
+
+
+<h3>Loading Bootloader, Kernel and Filesystem to SD card</h3>
+
+<p>Locate SD card using <code>df</code> command or <code>fdisk -l</code>, then unmount SD card:</p>
+
+<pre><code>diskutil umount disk2s*     
+</code></pre>
+
+<p>Next, unzip the gz file, then using dd command copy img file to SD card:</p>
+
+<pre><code>sudo dd bs=4m if=ubuntu-netbook-10.10-preinstalled-netbook-armel+omap4.img of=/dev/disk2
+</code></pre>
+
+<p>it will take up to 30 mins depending on the img file size.</p>
+
+<h2>references:</h2>
+
+<p><a href="http://omappedia.org/wiki/Ubuntu_Pre-built_Binaries_Guide">http://omappedia.org/wiki/Ubuntu_Pre-built_Binaries_Guide</a></p>
 </div>
 
-<aside class="sidebar">
+
+  <footer>
+    <p class="meta">
+      
   
-    <section>
-  <h1>About ME</h1>
-  <p><img class="left" src="/images/avatar.jpg" style="margin-top:3px; margin-bottom: 0" /> What is dreaming in digital? The blog tittle is just the lyric from a keygen song: <a href="http://www.youtube.com/watch?v=0w_SnmVyksE">Dreaming in digital</a>. In the real world I go by Evan Hung, a Chinese born in 87. I'm interested in eletronic gadgets, linux, ios, arduino, UAV, psychology, finance, photography and graphic desgin. I'm currently self studying Linux management and iOS development. Besides, I am also a <a href="http://www.topgear.com/uk">Top Gear</a> petrol head, who is watching Top Gear since 2005.</p>
-</section>
-<section>
-  <h1>About the language</h1>
-  <p>I am not a native Elgish speaker, I am blogging in English just because it's a wildly used language. Moreover, I think it's a good way to practise my english writing, which I am really bad at. As a result you may find loads of typos and gramma mistakes, so please bear with me and I will do my best to keep them to minimum. </p>
-</section>
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2012/03/30/setting-lightdm/">Setting Ubuntu LightDM</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/20/why-blogging-in-english/">Why blogging in english</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/16/the-very-first-post/">The very first post</a>
-      </li>
-    
-  </ul>
-</section>
+
+<span class="byline author vcard">Posted by <span class="fn">Evan Hung</span></span>
+
+      
+
+
 
 
 
@@ -124,7 +153,41 @@
 
 
   
-</aside>
+
+
+<time datetime="2012-03-31T15:22:00+08:00" pubdate data-updated="true">Mar 31<span>st</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    Liquid error: undefined method `sort!' for "Pandaboard ubuntu":String
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
 
 
     </div>
@@ -141,7 +204,10 @@
       var disqus_shortname = 'd-i-d';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://dreaming-in-digital.me/notes/install-ubuntu-on-pandaboard.html';
+        var disqus_url = 'http://dreaming-in-digital.me/notes/install-ubuntu-on-pandaboard.html';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

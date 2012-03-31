@@ -13,10 +13,6 @@
         <lastmod>2012-03-31T15:20:30+08:00</lastmod>
     </url>
     <url>
-        <loc>http://dreaming-in-digital.me/blog/2012/03/31/install-ubuntu-on-pandaboard/</loc>
-        <lastmod>2012-03-31T15:59:37+08:00</lastmod>
-    </url>
-    <url>
         <loc>http://dreaming-in-digital.me/404.html</loc>
         <lastmod>2012-03-26T14:33:53+08:00</lastmod>
     </url>
@@ -26,7 +22,7 @@
     </url>
     <url>
         <loc>http://dreaming-in-digital.me/blog/archives/</loc>
-        <lastmod>2012-03-31T15:59:37+08:00</lastmod>
+        <lastmod>2012-03-31T15:20:30+08:00</lastmod>
     </url>
     <url>
         <loc>http://dreaming-in-digital.me/docs/blogging/code/</loc>
@@ -154,7 +150,7 @@
     </url>
     <url>
         <loc>http://dreaming-in-digital.me/</loc>
-        <lastmod>2012-03-31T15:59:37+08:00</lastmod>
+        <lastmod>2012-03-31T15:20:30+08:00</lastmod>
     </url>
     <url>
         <loc>http://dreaming-in-digital.me/my-collections/education.html</loc>
@@ -178,7 +174,11 @@
     </url>
     <url>
         <loc>http://dreaming-in-digital.me/notes/</loc>
-        <lastmod>2012-03-26T13:56:23+08:00</lastmod>
+        <lastmod>2012-03-31T22:58:27+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dreaming-in-digital.me/notes/install-ubuntu-on-pandaboard.html</loc>
+        <lastmod>2012-03-31T15:59:37+08:00</lastmod>
     </url>
     <url>
         <loc>http://dreaming-in-digital.me/notes/octopress-install.html</loc>
