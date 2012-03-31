@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Install ubuntu on Pandaboard in OSX - Dreaming in digital - A blog by Evan Hung</title>
+  <title>Install ubuntu on Pandaboard - Dreaming in digital - A blog by Evan Hung</title>
   <meta name="author" content="Evan Hung">
 
   
@@ -79,7 +79,7 @@
   
   <header>
     
-      <h1 class="entry-title">Install Ubuntu on Pandaboard in OSX</h1>
+      <h1 class="entry-title">Install Ubuntu on Pandaboard</h1>
     
     
       <p class="meta">
@@ -102,7 +102,35 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>Pandaboard</p>
+
+<h3>Download the Prebuilt binaries</h3>
+
+<ul>
+<li><a href="http://cdimage.ubuntu.com/releases/11.10/release/ubuntu-11.10-preinstalled-desktop-armel+omap4.img.gz">Ubuntu 11.10 Oneiric Ocelot desktop</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.10/release/ubuntu-11.10-preinstalled-server-armel+omap4.img.gz">Ubuntu 11.10 Oneiric Ocelot server</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.04/release/">Ubuntu 11.04 Natty Narwal Netbook</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.04/release/">Ubuntu 11.04 Natty Narwal Headless</a></li>
+<li><a href="http://cdimage.ubuntu.com/ubuntu-netbook/ports/releases/10.10/release/">Ubuntu 10.10 Maverick Meerkat</a></li>
+</ul>
+
+
+<!-- more -->
+
+
+<h3>Loading Bootloader, Kernel and Filesystem to SD card</h3>
+
+<p>Locate SD card using <code>df</code> command or <code>fdisk -l</code>, then unmount SD card:</p>
+
+<pre><code>diskutil umount disk2s*     
+</code></pre>
+
+<p>Next, unzip the gz file, then using dd command copy img file to SD card:</p>
+
+<pre><code>sudo dd bs=4m if=ubuntu-netbook-10.10-preinstalled-netbook-armel+omap4.img of=/dev/disk2
+</code></pre>
+
+<p>it will take up to 30 mins depending on the img file size.</p>
 </div>
 
 

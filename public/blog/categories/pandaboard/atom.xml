@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Pandaboard | Dreaming in digital]]></title>
   <link href="http://dreaming-in-digital.me/blog/categories/pandaboard/atom.xml" rel="self"/>
   <link href="http://dreaming-in-digital.me/"/>
-  <updated>2012-03-31T15:35:27+08:00</updated>
+  <updated>2012-03-31T15:56:35+08:00</updated>
   <id>http://dreaming-in-digital.me/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
@@ -14,11 +14,39 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Install ubuntu on Pandaboard in OSX]]></title>
+    <title type="html"><![CDATA[Install ubuntu on Pandaboard]]></title>
     <link href="http://dreaming-in-digital.me/blog/2012/03/31/install-ubuntu-on-pandaboard/"/>
     <updated>2012-03-31T15:22:00+08:00</updated>
     <id>http://dreaming-in-digital.me/blog/2012/03/31/install-ubuntu-on-pandaboard</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Pandaboard</p>
+
+<h3>Download the Prebuilt binaries</h3>
+
+<ul>
+<li><a href="http://cdimage.ubuntu.com/releases/11.10/release/ubuntu-11.10-preinstalled-desktop-armel+omap4.img.gz">Ubuntu 11.10 Oneiric Ocelot desktop</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.10/release/ubuntu-11.10-preinstalled-server-armel+omap4.img.gz">Ubuntu 11.10 Oneiric Ocelot server</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.04/release/">Ubuntu 11.04 Natty Narwal Netbook</a></li>
+<li><a href="http://cdimage.ubuntu.com/releases/11.04/release/">Ubuntu 11.04 Natty Narwal Headless</a></li>
+<li><a href="http://cdimage.ubuntu.com/ubuntu-netbook/ports/releases/10.10/release/">Ubuntu 10.10 Maverick Meerkat</a></li>
+</ul>
+
+
+<!-- more -->
+
+
+<h3>Loading Bootloader, Kernel and Filesystem to SD card</h3>
+
+<p>Locate SD card using <code>df</code> command or <code>fdisk -l</code>, then unmount SD card:</p>
+
+<pre><code>diskutil umount disk2s*     
+</code></pre>
+
+<p>Next, unzip the gz file, then using dd command copy img file to SD card:</p>
+
+<pre><code>sudo dd bs=4m if=ubuntu-netbook-10.10-preinstalled-netbook-armel+omap4.img of=/dev/disk2
+</code></pre>
+
+<p>it will take up to 30 mins depending on the img file size.</p>
 ]]></content>
   </entry>
   
