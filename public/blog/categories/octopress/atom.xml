@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: octopress | Dreaming in digital]]></title>
+  <title><![CDATA[Category: octopress | Dreaming in Digital]]></title>
   <link href="http://dreaming-in-digital.me/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://dreaming-in-digital.me/"/>
-  <updated>2012-03-31T22:59:10+08:00</updated>
+  <updated>2012-04-01T13:59:40+08:00</updated>
   <id>http://dreaming-in-digital.me/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
