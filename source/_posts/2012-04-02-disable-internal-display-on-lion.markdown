@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Disable internal display on lion"
+title: "Disable internal display in lion"
 date: 2012-04-02 14:54
 comments: true
 sidebar: false
