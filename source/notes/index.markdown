@@ -17,3 +17,7 @@ footer: false
 ## 
 
 ###[安装ubuntu到pandaboard](/notes/install-ubuntu-on-pandaboard.html)
+
+## 
+
+###[Github指令](/notes/github-commands.html)
