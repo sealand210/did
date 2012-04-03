@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: english - Dreaming in Digital - A blog by Evan Hung</title>
+  <title>Dreaming in Digital - A blog by Evan Hung</title>
   <meta name="author" content="Evan Hung">
 
   
-  <meta name="description" content="Category: english">
+  <meta name="description" content="linux, ios, mac, arduino, design, digital">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dreaming-in-digital.meblog/categories/english">
+  <link rel="canonical" href="http://dreaming-in-digital.me/notes/github-commands.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -45,7 +45,7 @@
 
 </head>
 
-<body   >
+<body   class="no-sidebar"  >
   <header role="banner"><hgroup>
   <h1><a href="/">Dreaming in Digital</a></h1>
   
@@ -77,81 +77,103 @@
       <div>
 <article role="article">
   
-  <header>
-    <h1 class="entry-title">Category: English</h1>
-    
-  </header>
+  <p>转到你的工作目录</p>
+
+<pre><code>roy@ubuntu:~/$ cd workspace
+</code></pre>
+
+<p>创建、下载项目文件夹（不知道是不是该叫它“包”）</p>
+
+<pre><code>roy@ubuntu:~/workspace$ git clone git://github.com/royzhu/test.git
+</code></pre>
+
+<p>等待一段时间后，项目就下好了</p>
+
+<pre><code>roy@ubuntu:~/workspace$ ls -la
+
+drwxr-xr-x 3 roy roy 4096 2008-04-29 17:10 test
+
+roy@ubuntu:~/workspace$ cd test
+</code></pre>
+
+<p>查看主枝和分支。登录GitHub.com，加入项目后，在项目里的Network有图形化的分支图</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git show-branch
+[master] a new branch
+</code></pre>
+
+<p>master是默认的住分支名</p>
+
+<p>建立项目远程地址</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git remote add origin  git@github.com:royzhu/test.git
+</code></pre>
+
+<p>建立自己的分支</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git branch your_branch_name
+</code></pre>
+
+<p>再看看有哪些分支</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git show-branch
+! [your_branch_name] a new branch
+--
+*+ [master] a new branch
+</code></pre>
+
+<p>查看现在使用的分支</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git branch
+* master
+your_branch_name
+</code></pre>
+
+<p>加*号表示当前使用的分支</p>
+
+<p>进入自己的分支</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git checkout your_branch_name
+</code></pre>
+
+<p>再看看</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git branch
+master
+* your_branch_name
+</code></pre>
+
+<p>添加、修改些东西吧</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ vim something
+</code></pre>
+
+<p>把文件加入跟踪（每次提交前必须写这步）</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git add something
+</code></pre>
+
+<p>提交修改（提交到本地，没有传到服务器）</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git commit -m '说明'
+</code></pre>
+
+<p>提交分支到服务器</p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git push origin    your_branch_name
+“origin”是固定的
+</code></pre>
+
+<p>获得最新的项目文件（从服务器下载）
+  </p>
+
+<pre><code>roy@ubuntu:~/workspace/test$ git pull git://github.com/ royzhu/test.git
+</code></pre>
+
   
-  <div id="blog-archives" class="category">
-
-
-
-  
-  <h2>2012</h2>
-
-<article>
-  
-<h1><a href="/blog/2012/03/20/why-blogging-in-english/">Why blogging in english</a></h1>
-<time datetime="2012-03-20T19:09:00+08:00" pubdate><span class='month'>Mar</span> <span class='day'>20</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/english/'>english</a></span>
-</footer>
-
-
 </article>
 
 </div>
-
-  
-</article>
-
-</div>
-
-<aside class="sidebar">
-  
-    <section>
-  <h1>About ME</h1>
-  <p><img class="left" src="/images/avatar.jpg" style="margin-top:3px; margin-bottom: 0" /> What is dreaming in digital? The blog tittle is just the lyric from a keygen song: <a href="http://www.youtube.com/watch?v=0w_SnmVyksE">Dreaming in digital</a>. In the real world I go by Evan Hung, a Chinese born in 87. I'm interested in eletronic gadgets, linux, ios, arduino, UAV, psychology, finance, photography and graphic design. I'm currently self studying Linux management and iOS development. Besides, I am also a <a href="http://www.topgear.com/uk">Top Gear</a> petrol head, who is watching Top Gear since 2005.</p>
-</section>
-<section>
-  <h1>About the language</h1>
-  <p>I am not a native English speaker, I am blogging in English just because it's a wildly used language. Moreover, I think it's a good way to practise my english writing, which I am really bad at. As a result you may find loads of typos and gramma mistakes, so please bear with me and I will do my best to keep them to minimum. </p>
-</section>
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2012/04/03/git-and-github/">Git &amp; Github</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/04/02/disable-internal-display-on-lion/">Disable internal display in lion</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/30/setting-lightdm/">Setting Ubuntu LightDM</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/20/why-blogging-in-english/">Why blogging in english</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/16/the-very-first-post/">The very first post</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-
-  
-</aside>
 
 
     </div>

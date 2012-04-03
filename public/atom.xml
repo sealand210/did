@@ -4,7 +4,7 @@
   <title><![CDATA[Dreaming in Digital]]></title>
   <link href="http://dreaming-in-digital.me/atom.xml" rel="self"/>
   <link href="http://dreaming-in-digital.me/"/>
-  <updated>2012-04-03T22:28:57+08:00</updated>
+  <updated>2012-04-04T00:49:38+08:00</updated>
   <id>http://dreaming-in-digital.me/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
@@ -12,6 +12,121 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git &amp; Github]]></title>
+    <link href="http://dreaming-in-digital.me/blog/2012/04/03/git-and-github/"/>
+    <updated>2012-04-03T22:32:00+08:00</updated>
+    <id>http://dreaming-in-digital.me/blog/2012/04/03/git-and-github</id>
+    <content type="html"><![CDATA[<p><img src="http://dreaming-in-digital.me/images/githuboctacat.jpg"></p>
+
+<h2>GIT</h2>
+
+<p>I&#8217;ve been using git and github to modifying and updating my code recently,  and I found it’s fantastic, I should learn to use them earlier.   A great thing about Git is,  you can use it to create multiple versions of your code and Git will keep tracking your modifications. In Git, create a copy is called branching. To create a branch you just need to type in a line of very simple command under your working directory:</p>
+
+<pre><code>$ git branch your_branch_name
+</code></pre>
+
+<!-- more -->
+
+
+<p>A new copy (branch) named your_branch_name is created, to enter that branch, simply type:</p>
+
+<pre><code>$ git checkout your_branch_name
+</code></pre>
+
+<p>The default branch is master branch, so if you didn’t create any branches then you are in master branch. Good thing about using branch is, editing any branch within the same directory will not change other branches. So you can do any experimentation you want using branch without worrying about damage the main code. If you found your experimentation with that branch has gone to a dead end,  you can simply delete the branch:</p>
+
+<pre><code>$ git branch -D your_branch_name
+</code></pre>
+
+<p>There are two options of deleting a branch:</p>
+
+<pre><code>-d Delete a branch. The branch must be fully merged in its upstream branch,
+   or in HEAD if no upstream was set with --track or --set-upstream.
+-D Delete a branch irrespective of its merged status.
+</code></pre>
+
+<p>After deleting the branch, you can go back to your master branch:</p>
+
+<pre><code>  $ git checkout master
+</code></pre>
+
+<p>Everything is back to original.</p>
+
+<p>Another thing about branch is, you can merge branches using merge command:</p>
+
+<pre><code>$ git merge branch_name
+</code></pre>
+
+<p>This command will merge the branch_name to your active branch, git will tries to auto-merge changes. Unfortunately, this is not always possible and results in conflicts. You are responsible to merge those conflicts manually by editing the files shown by git.</p>
+
+<p>Another great thing about Git is, any modification of your code is temporary, this stage is called <code>Index</code>. To start tracking your code, use add command:</p>
+
+<pre><code>$ git add your_file_name
+</code></pre>
+
+<p>To track all your file you can use following command:</p>
+
+<pre><code>$ git add .  #tstages new and modified, without deleted
+$ git add -u #stages modified and deleted, without new
+$ git add -A #stages All    
+</code></pre>
+
+<p> Then you can edit your code, compile it and run it. But after that if you don’t like your modifications, you can undo it with checkout command:</p>
+
+<pre><code>$ git checkout your_file_name
+</code></pre>
+
+<p>If you like your modifications, just use commit command:</p>
+
+<pre><code>$ git commit -m “update message”
+</code></pre>
+
+<p>Now the file is committed to the HEAD, which points to the last commit you&#8217;ve made.</p>
+
+<p>You can always use status command to checkout which branch you are in and what modifications you have done:</p>
+
+<pre><code>$ git status
+</code></pre>
+
+<p>To view all your histories in GUI, just type:</p>
+
+<pre><code>$ gitk
+</code></pre>
+
+<h2>GITHUB</h2>
+
+<p>Github is web service that put your local repository online, so people can share their code and work together.
+To clone a remote repository just type:</p>
+
+<pre><code>$ git clone /path/to/repository
+</code></pre>
+
+<p>To push your local repository to remote just type:</p>
+
+<pre><code>$ git push origin your_branch_name
+</code></pre>
+
+<p>If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
+   $ git remote add origin <server>
+ Now you are able to push your changes to the selected remote serverIf you have cloned an existing repository but you want to change url, you can change it with:</p>
+
+<pre><code>$ git remote set-url origin &lt;server&gt; 
+</code></pre>
+
+<p>Some time if your local history is lost, git will not upload your code to prevent losing data and history, you can use -f to force upload your code, but that is not always a good idea.</p>
+
+<p>That’s so far that I have learned,  and I am just scratching the surface right now, when I have fully understand git, I will come back and update this post.</p>
+
+<h2>References:</h2>
+
+<p><a href="http://rogerdudler.github.com/git-guide/index.html">http://rogerdudler.github.com/git-guide/index.html</a>
+<a href="http://linux.die.net/man/1/git-branch">http://linux.die.net/man/1/git-branch</a>
+<a href="http://stackoverflow.com/questions/572549/difference-of-git-add-a-and-git-add">http://stackoverflow.com/questions/572549/difference-of-git-add-a-and-git-add</a>
+<a href="http://hi.baidu.com/royzhu/blog/item/c3499159f506522f2834f0f1.html">http://hi.baidu.com/royzhu/blog/item/c3499159f506522f2834f0f1.html</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Disable internal display in lion]]></title>
