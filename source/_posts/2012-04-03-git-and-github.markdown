@@ -9,7 +9,7 @@ categories:
 {% img /images/githuboctacat.jpg %}
 
 ## GIT	
-I've been using git and github to modifying and updating my code recently,  and I found it’s fantastic, I should learn to use them earlier.   A great thing about Git is,  you can use it to create multiple versions of your code and Git will keep tracking your modifications. In Git, create a copy is called branching. To create a branch you just need to type in a line of very simple command under your working directory: 
+I've been using git and github to modify and update my code recently,  and I found it’s fantastic, I should learn to use them earlier.   A great thing about Git is,  you can use it to create multiple versions of your code and Git will keep tracking your modifications. In Git, create a copy is called branching. To create a branch you just need to type in a line of very simple command under your working directory: 
 	$ git branch your_branch_name
 <!-- more -->
 A new copy (branch) named your_branch_name is created, to enter that branch, simply type:
