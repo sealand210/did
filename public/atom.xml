@@ -4,7 +4,7 @@
   <title><![CDATA[Dreaming in Digital]]></title>
   <link href="http://dreaming-in-digital.me/atom.xml" rel="self"/>
   <link href="http://dreaming-in-digital.me/"/>
-  <updated>2012-04-04T22:42:44+08:00</updated>
+  <updated>2012-04-08T01:08:30+08:00</updated>
   <id>http://dreaming-in-digital.me/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Surface Mount Soldering]]></title>
+    <link href="http://dreaming-in-digital.me/blog/2012/04/07/surface-mount-soldering/"/>
+    <updated>2012-04-07T23:48:00+08:00</updated>
+    <id>http://dreaming-in-digital.me/blog/2012/04/07/surface-mount-soldering</id>
+    <content type="html"><![CDATA[<p><video width='320' height='240' preload='none' controls poster=''><source src='http://dreaming-in-digital.me/videos/1.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git &amp; Github]]></title>
@@ -44,6 +53,7 @@
 
 <pre><code>-d Delete a branch. The branch must be fully merged in its upstream branch,
    or in HEAD if no upstream was set with --track or --set-upstream.
+
 -D Delete a branch irrespective of its merged status.
 </code></pre>
 
@@ -70,7 +80,7 @@
 
 <pre><code>$ git add .  #tstages new and modified, without deleted
 $ git add -u #stages modified and deleted, without new
-$ git add -A #stages All    
+$ git add -A #stages All
 </code></pre>
 
 <p> Then you can edit your code, compile it and run it. But after that if you don’t like your modifications, you can undo it with checkout command:</p>
@@ -97,8 +107,9 @@ $ git add -A #stages All
 
 <h2>GITHUB</h2>
 
-<p>Github is web service that put your local repository online, so people can share their code and work together.
-To clone a remote repository just type:</p>
+<p>Github is web service that put your local repository online, so people can share their code and work together.</p>
+
+<p>To clone a remote repository just type:</p>
 
 <pre><code>$ git clone /path/to/repository
 </code></pre>
@@ -110,7 +121,9 @@ To clone a remote repository just type:</p>
 
 <p>If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
    $ git remote add origin <server>
- Now you are able to push your changes to the selected remote serverIf you have cloned an existing repository but you want to change url, you can change it with:</p>
+ Now you are able to push your changes to the selected remote server</p>
+
+<p>If you have cloned an existing repository but you want to change url, you can change it with:</p>
 
 <pre><code>$ git remote set-url origin &lt;server&gt; 
 </code></pre>
@@ -121,9 +134,11 @@ To clone a remote repository just type:</p>
 
 <h2>References:</h2>
 
-<p><a href="http://rogerdudler.github.com/git-guide/index.html">http://rogerdudler.github.com/git-guide/index.html</a>
-<a href="http://linux.die.net/man/1/git-branch">http://linux.die.net/man/1/git-branch</a>
-<a href="http://stackoverflow.com/questions/572549/difference-of-git-add-a-and-git-add">http://stackoverflow.com/questions/572549/difference-of-git-add-a-and-git-add</a>
+<p><a href="http://rogerdudler.github.com/git-guide/index.html">http://rogerdudler.github.com/git-guide/index.html</a></p>
+
+<p><a href="http://linux.die.net/man/1/git-branch">http://linux.die.net/man/1/git-branch</a></p>
+
+<p><a href="http://stackoverflow.com/questions/572549/difference-of-git-add-a-and-git-add">http://stackoverflow.com/questions/572549/difference-of-git-add-a-and-git-add</a>
 <a href="http://hi.baidu.com/royzhu/blog/item/c3499159f506522f2834f0f1.html">http://hi.baidu.com/royzhu/blog/item/c3499159f506522f2834f0f1.html</a></p>
 ]]></content>
   </entry>
