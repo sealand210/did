@@ -4,7 +4,7 @@
   <title><![CDATA[Dreaming in Digital]]></title>
   <link href="http://dreaming-in-digital.me/atom.xml" rel="self"/>
   <link href="http://dreaming-in-digital.me/"/>
-  <updated>2012-04-11T00:39:22+08:00</updated>
+  <updated>2012-04-11T01:03:12+08:00</updated>
   <id>http://dreaming-in-digital.me/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Surface Mount Soldering]]></title>
-    <link href="http://dreaming-in-digital.me/blog/2012/04/07/surface-mount-soldering/"/>
-    <updated>2012-04-07T23:48:00+08:00</updated>
-    <id>http://dreaming-in-digital.me/blog/2012/04/07/surface-mount-soldering</id>
-    <content type="html"><![CDATA[<p><video width='' height='' preload='none' controls poster='  http://s3.imathis.com/video/zero-to-fancy-buttons.png'><source src='http://s3.imathis.com/video/zero-to-fancy-buttons.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video></p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git &amp; Github]]></title>

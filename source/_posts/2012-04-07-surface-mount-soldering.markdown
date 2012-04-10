@@ -5,7 +5,7 @@ date: 2012-04-07 23:48
 comments: true
 sidebar: false
 categories: 
-public: false
+published: false
 ---
 
 
