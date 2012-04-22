@@ -24,6 +24,7 @@ git push origin master
 
 echo Deploying heroku pages...
 git config branch.remote heroku
+git commit -am 'update'
 git push heroku master
 
 
