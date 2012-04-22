@@ -1,7 +1,7 @@
 #!/bin/bash
 echo Deploying github pages...
 rake generate
-git remote set-url origin git@github.com:sealand210/sealand210.git
+git remote set-url origin git@github.com:sealand210/sealand210.github.com.git
 rm -rf _deploy/*
 cp -rf public/ _deploy/
 cd _deploy/
