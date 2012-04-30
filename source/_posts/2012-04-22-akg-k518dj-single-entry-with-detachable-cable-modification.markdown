@@ -4,10 +4,10 @@ title: "AKG K518DJ detachable cable modification"
 date: 2012-04-22 14:21
 comments: true
 sidebar: false
-categories: 
+categories: DIY AKG518dj headphones
 ---
 
-{%img /images/518dj-3.jpg %}
+{%img /images/518dj-2.jpg %}
 
 I like the design of Monster headphones, especially the detachable cable and it's cable design, but I don't appreciate it's sound quality and price tag. My AKG 518dj headphone is the best headphone in it's price range, but it also came with a long, old fashioned and undetachable cable. So I decide to modify it, make it's cable function just like Monsters, and then give it a Monster cable. 
 <!--more-->
@@ -20,7 +20,9 @@ The 3.5mm socket is from a Sony 3.5mm extension cable, it got an aluminum case, 
 
 After spending nearly 1 hour to drill the hole using a dremel, and fix the socket with hot glue, I finally got it done. 
 
-{%img /images/518dj-2.jpg %}
+
 
 {%img /images/518dj-4.jpg %}
+
+{%img /images/518dj-5.jpg %}
   
