@@ -83,3 +83,8 @@ master是默认的住分支名
 获得最新的项目文件（从服务器下载）
   
 	roy@ubuntu:~/workspace/test$ git pull git://github.com/	royzhu/test.git
+
+发布脚本
+
+{% include_code deploy.sh %}
+
