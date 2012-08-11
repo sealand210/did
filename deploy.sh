@@ -1,4 +1,3 @@
-#!/bin/bash
 echo Deploying github pages...
 rake generate
 rm -rf _deploy/*
