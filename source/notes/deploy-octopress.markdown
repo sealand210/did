@@ -153,6 +153,9 @@ git commit -m 'site updated'
 git push heroku master
 {%endcodeblock%}
 
+#####站点config文件
+{% include_code _config.yml %}
+
 
 ## 参考连接
 
