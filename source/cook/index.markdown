@@ -27,3 +27,7 @@ footer: false
 ###[印尼炒饭](/cook/nasi_goreng.html)
 来自东南亚的美食，配上照烧鸡排就更美味了。
 ## 
+{% img left /cook/mushroom_chicken.png 150 300 %}
+###[冬菇滑鸡](/cook/mushroom_chicken.html)
+来自东南亚的美食，配上照烧鸡排就更美味了。
+## 
