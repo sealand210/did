@@ -4,7 +4,7 @@ title: "Browser Compatibility Issue"
 date: 2012-08-21 18:20
 comments: true
 sidebar: false
-categories: 
+categories:  Octopress
 ---
 
 {%img /images/ss.png %}
