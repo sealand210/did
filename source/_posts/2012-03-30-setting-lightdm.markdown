@@ -6,7 +6,7 @@ comments: true
 sidebar: false
 categories:  linux ubuntu lightdm
 ---
-{% img  /images/LightDM.png %}
+{% img center /images/LightDM.png %}
 
 Ubuntu Oneiric comes with a new display/login manager - `LightDM`. Just like setting `GDM`, `XDM` or `KDM` etc., LightDM can also be set to auto-login by creating a custom file named `lightdm.conf` under `/etc/lightdm` directory. This way you can also define your preferred auto-login session.
 
