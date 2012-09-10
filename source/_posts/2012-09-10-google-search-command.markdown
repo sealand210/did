@@ -7,6 +7,8 @@ sidebar: false
 categories: Google
 ---
 
+We perviously have talked about [some tips and tricks]<http://www.evanhung.com/blog/2012/09/06/8-useful-google-search-tips-and-tricks/> of searching in google, here is a full list of google search command.
+
 {% img /images/google_earth.png google search command%}
 
 ##cache:
