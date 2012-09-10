@@ -7,9 +7,10 @@ sidebar: false
 categories: Google
 ---
 
-We perviously have talked about [some tips and tricks]<http://www.evanhung.com/blog/2012/09/06/8-useful-google-search-tips-and-tricks/> of searching in google, here is a full list of google search command.
 
 {% img /images/google_earth.png google search command%}
+
+Perviously I have posted a blog about [some tips and tricks](http://www.evanhung.com/blog/2012/09/06/8-useful-google-search-tips-and-tricks/) of searching in google, later on I am wondering is that all? Obviously the answer is no, here is a full list of google search command. Use them with imagination and they will have the potential to become hundreds of google tricks.
 
 ##cache:
 Show the cached snapshot of a page
