@@ -11,7 +11,7 @@ footer: false
 ## 
 
 {% img left /images/savevideo.png savevideo.me%}
-###[save video](http://savevideo.me)
+###[Save Video](http://savevideo.me)
 
 A convenient web tool translate video page url from youtube, vimeo, yahoo etc., to a video direct download url.
 
@@ -30,14 +30,6 @@ A very good looking and practical tool from Brandon Mathis, it automatically gen
 ###[Pingdom tools](http://tools.pingdom.com)
 
 Confusing about why your website is so slow? Here is a tool will help you test and analyse webpage loading time.
-
-
-## 
-
-{% img left /images/onlybird.png onlybird%}
-###[Free ssh proxy](http://blog.onlybird.com/)
-
-If you are in china, and you find yourself couldn’t watch youtube, login Twitter or Facebook, then ssh proxy will be the best solution.
                        
 
 
@@ -48,3 +40,12 @@ If you are in china, and you find yourself couldn’t watch youtube, login Twitt
 
 It's a wonderful place to study all kinds of programming language, it doesn't require any  background knowledge.
                        
+                       
+
+
+## 
+
+{% img left /images/oanda.png oanda%}
+###[OANDA](http://www.oanda.com/)
+
+A website provide forex trading and currency information, it has access to one of the world's largest currency databases.

@@ -6,13 +6,12 @@ footer: false
 ---
 
 # My Collections
-Stuff that I like
 ## 
 
 {% img left /images/colorpicker.png Webtools%}
 ###[Web Service](/my-collections/webtools.html)
 
-Convenient free web services, including video url translating tool, a HSL color picker, a webpage loading test tool and more.
+Convenient and free web services collection, including video url translating tool, a HSL color picker, a webpage loading test tool and more.
 
 ## 
 
@@ -26,6 +25,5 @@ A set of great apps that running on mac osx, powerful and easy to use, most of t
 {% img left /images/sirkenrobinson.png Education%}
 ###[Education](/my-collections/education.html)
 
-Free education that I like, what could be better than free education form the best university in the world? 
-                       
+Free online education video, I think this is the best from of education, only learn stuff that interest you and useful to you.                       
 
