@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Google | Dreaming in Digital]]></title>
-  <link href="http://sealand210.github.com/did/blog/categories/google/atom.xml" rel="self"/>
-  <link href="http://sealand210.github.com/did/"/>
-  <updated>2017-02-03T18:07:29+08:00</updated>
-  <id>http://sealand210.github.com/did/</id>
+  <link href="http://sealand210.github.io//blog/categories/google/atom.xml" rel="self"/>
+  <link href="http://sealand210.github.io//"/>
+  <updated>2017-02-03T19:37:21+08:00</updated>
+  <id>http://sealand210.github.io//</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
     <email><![CDATA[mail2evan@me.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Google Search Command]]></title>
-    <link href="http://sealand210.github.com/did/blog/2012/09/10/google-search-command/"/>
+    <link href="http://sealand210.github.io//blog/2012/09/10/google-search-command/"/>
     <updated>2012-09-10T19:57:00+08:00</updated>
-    <id>http://sealand210.github.com/did/blog/2012/09/10/google-search-command</id>
+    <id>http://sealand210.github.io//blog/2012/09/10/google-search-command</id>
     <content type="html"><![CDATA[<p>{% img /images/google_earth.png google search command%}</p>
 
 <p>Perviously I have posted a blog about <a href="http://www.evanhung.com/blog/2012/09/06/8-useful-google-search-tips-and-tricks/">some tips and tricks</a> of searching in google, later on I am wondering is that all? Obviously the answer is no, here is a full list of google search command. Use them with imagination and they will have the potential to become hundreds of google tricks.</p>
@@ -240,9 +240,9 @@ Sample search:</p>
   
   <entry>
     <title type="html"><![CDATA[8 Useful Google Search Tips and Tricks]]></title>
-    <link href="http://sealand210.github.com/did/blog/2012/09/06/8-useful-google-search-tips-and-tricks/"/>
+    <link href="http://sealand210.github.io//blog/2012/09/06/8-useful-google-search-tips-and-tricks/"/>
     <updated>2012-09-06T11:14:00+08:00</updated>
-    <id>http://sealand210.github.com/did/blog/2012/09/06/8-useful-google-search-tips-and-tricks</id>
+    <id>http://sealand210.github.io//blog/2012/09/06/8-useful-google-search-tips-and-tricks</id>
     <content type="html"><![CDATA[<p>{% img /images/google.jpg google%}</p>
 
 <p>You may be using Google search multiple times per day to locate something on the web. Learning how to use Google search effectively can boost your productivity instantly.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Octopress | Dreaming in Digital]]></title>
-  <link href="http://sealand210.github.com/did/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://sealand210.github.com/did/"/>
-  <updated>2017-02-03T18:07:29+08:00</updated>
-  <id>http://sealand210.github.com/did/</id>
+  <link href="http://sealand210.github.io//blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://sealand210.github.io//"/>
+  <updated>2017-02-03T19:37:21+08:00</updated>
+  <id>http://sealand210.github.io//</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
     <email><![CDATA[mail2evan@me.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Browser Compatibility Issue]]></title>
-    <link href="http://sealand210.github.com/did/blog/2012/08/21/browser-compatibility-issue/"/>
+    <link href="http://sealand210.github.io//blog/2012/08/21/browser-compatibility-issue/"/>
     <updated>2012-08-21T18:20:00+08:00</updated>
-    <id>http://sealand210.github.com/did/blog/2012/08/21/browser-compatibility-issue</id>
+    <id>http://sealand210.github.io//blog/2012/08/21/browser-compatibility-issue</id>
     <content type="html"><![CDATA[<p>{%img /images/ss.png %}</p>
 
 <p>Unfortunately, Octopress does not compatible with some old browser such as IE6 and IE7。 Webpage looks horrible under those browsers. Although most of the click on this blog is from myself, I still don't want anybody to have the chance to see these horrible pages.</p>
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[The very first post]]></title>
-    <link href="http://sealand210.github.com/did/blog/2012/03/16/the-very-first-post/"/>
+    <link href="http://sealand210.github.io//blog/2012/03/16/the-very-first-post/"/>
     <updated>2012-03-16T16:35:00+08:00</updated>
-    <id>http://sealand210.github.com/did/blog/2012/03/16/the-very-first-post</id>
+    <id>http://sealand210.github.io//blog/2012/03/16/the-very-first-post</id>
     <content type="html"><![CDATA[<p>In the past two days I've been working my butt off to set up this blog. It's not my first time to set up a website, but it is my first time to set up a octopress site, and host it on a online <code>Rack PasS</code>, and let it pass through china's <code>GFW</code> (a network filter that blocking foreign websites which china government consider as a threat).</p>
 
 <p>{% img left /images/logoa.png 200 200 logo %}</p>

@@ -40,7 +40,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://sealand210.github.com/didblog/categories/ubuntu">
+  <link rel="canonical" href="http://sealand210.github.io/blog/categories/ubuntu">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -84,7 +84,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:sealand210.github.com/did" />
+    <input type="hidden" name="q" value="site:sealand210.github.io/" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -138,10 +138,6 @@
   <p><img class="left" src="/images/avatar.jpg" style="margin-top:3px; margin-bottom: 0" /> What is dreaming in digital? The blog tittle is just the lyric from a keygen song: <a href="http://www.youtube.com/watch?v=0w_SnmVyksE">Dreaming in digital</a>. In the real world I go by Evan Hung, a Chinese born in 87. I'm interested in eletronic gadgets, linux, ios, arduino, UAV, psychology, finance, photography and graphic design. I'm currently self studying Linux management and iOS development. Besides, I am also a <a href="http://www.topgear.com/uk">Top Gear</a> petrol head, who is watching Top Gear since 2005.</p>
 </section>
 <section>
-  <h1>About the language</h1>
-  <p>I am not a native English speaker, I am blogging in English just because it's a wildly used language. Moreover, I think it's a good way to practise my english writing, which I am really bad at. As a result you may find loads of typos and gramma mistakes, so please bear with me and I will do my best to keep them to minimum. </p>
-</section>
-<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -184,6 +180,51 @@
   </ul>
 </section>
 
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/sealand210">@sealand210</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'sealand210',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("HungEvan", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/HungEvan" class="twitter-follow-button" data-show-count="false">Follow @HungEvan</a>
+  
+</section>
 
 
 
@@ -221,6 +262,16 @@
 
 
 
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
 
 
 
