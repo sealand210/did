@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tricks | Dreaming in Digital]]></title>
+  <link href="http://sealand210.github.com/did/blog/categories/tricks/atom.xml" rel="self"/>
+  <link href="http://sealand210.github.com/did/"/>
+  <updated>2017-02-03T18:07:29+08:00</updated>
+  <id>http://sealand210.github.com/did/</id>
+  <author>
+    <name><![CDATA[Evan Hung]]></name>
+    <email><![CDATA[mail2evan@me.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[8 Useful Google Search Tips and Tricks]]></title>
+    <link href="http://sealand210.github.com/did/blog/2012/09/06/8-useful-google-search-tips-and-tricks/"/>
+    <updated>2012-09-06T11:14:00+08:00</updated>
+    <id>http://sealand210.github.com/did/blog/2012/09/06/8-useful-google-search-tips-and-tricks</id>
+    <content type="html"><![CDATA[<p>{% img /images/google.jpg google%}</p>
+
+<p>You may be using Google search multiple times per day to locate something on the web. Learning how to use Google search effectively can boost your productivity instantly.</p>
+
+<p><strong>1. Identify Local Time for Any City in the World using Google</strong></p>
+
+<p>If you want to know current local time in a particular city, use the following method. To see the current local time in Los Angeles do the following. Go-ahead and try this yourself for your local city and see how it works.</p>
+
+<p><code>Syntax: time in PLACE</code></p>
+
+<p>Example: time Los Angeles</p>
+
+<!--more-->
+
+
+<p><strong>2. Mathematical Calculations using Google</strong></p>
+
+<p>Normally for doing the metric conversions we will be using some online conversion websites or conversion softwares. However just by using Google search box you can do calculations, unit conversions and money conversions as explained below.</p>
+
+<p>You can use the Google search box as your scientific calculator as</p>
+
+<p><code>sqrt(10)</code></p>
+
+<p><strong>3. Unit Conversion using Google</strong></p>
+
+<p>The following will show the equivalent pounds for one kg.</p>
+
+<p><code>kg in pound</code></p>
+
+<p>Following are few other possible conversions.</p>
+
+<p><code>km in mile</code><br/>
+<code>inch in feet</code><br/>
+<code>acre in square feet</code><br/>
+<code>sec in ms</code> <br/>
+<code>kilobyte in byte</code></p>
+
+<p>You get the idea now. Try your own conversion and see how it works.</p>
+
+<p><strong>4. Money Conversion using Google</strong></p>
+
+<p>Following converts US Dollars in Euros (or) US Dollars in Rupees.</p>
+
+<p><code>USD in Euro</code>
+(or)
+<code>USD in INR</code></p>
+
+<p><strong>5. Identify Local Weather for Any City in the World using Google</strong></p>
+
+<p>To see the current weather in Los Angeles do the following. Go-ahead and try this yourself for your local city and see how it works.</p>
+
+<p><code>Syntax: weather PLACE</code></p>
+
+<p>weather Los Angeles</p>
+
+<p><strong>15. Search files in html directory</strong></p>
+
+<p>This is a quick way to search free ebooks and music files. The idea is to use google to search the website that have opened their html directory, little bit like searching shared samba files.</p>
+
+<p>search for mp3 files:<br/>
+<code>-inurl:htm -inurl:html intitle:"index of" name mp3</code></p>
+
+<p>ebooks:<br/>
+<code>-inurl:htm -inurl:html intitle:"index of" +("/ebooks"|"/book") +(chm|pdf|zip)</code></p>
+
+<p>comic books:<br/>
+<code>-inurl:htm -inurl:html intitle:"index of" "Last modified" comics +(cbr|pdf|zip)</code></p>
+
+<p>avi videos:<br/>
+<code>?intitle:index.of? avi name</code></p>
+
+<p>Here just a few example, it can be used to search any type of files.</p>
+
+<p><strong>6. Block Specific Sites From Search Results</strong><br/>
+Remove specific domains from your results using the <code>-site:website.com</code> phrase in your search.</p>
+
+<p><strong>7. Track Flights</strong><br/>
+Tracking the flight of a loved one has never been easier, simply enter the airline and flight number into the regular Google search box and you’ll get the arrival and departure times.</p>
+
+<p><strong>8. Search Google Images for People</strong><br/>
+When searching Google Images for people, add <code>&amp;imgtype=face</code> to the end of the URL returned in your browser’s address bar.</p>
+
+<h2>Reference:</h2>
+
+<p><a href="http://www.thegeekstuff.com/2009/06/expertise-in-google-search/">http://www.thegeekstuff.com/2009/06/expertise-in-google-search/</a>
+<a href="http://googletricks.com/search-tips/google-search-tips/google-tricks-for-search/">http://googletricks.com/search-tips/google-search-tips/google-tricks-for-search/</a></p>
+]]></content>
+  </entry>
+  
+</feed>

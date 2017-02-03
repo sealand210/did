@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Dreaming in Digital]]></title>
+  <link href="http://sealand210.github.com/did/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://sealand210.github.com/did/"/>
+  <updated>2017-02-03T18:07:29+08:00</updated>
+  <id>http://sealand210.github.com/did/</id>
+  <author>
+    <name><![CDATA[Evan Hung]]></name>
+    <email><![CDATA[mail2evan@me.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Browser Compatibility Issue]]></title>
+    <link href="http://sealand210.github.com/did/blog/2012/08/21/browser-compatibility-issue/"/>
+    <updated>2012-08-21T18:20:00+08:00</updated>
+    <id>http://sealand210.github.com/did/blog/2012/08/21/browser-compatibility-issue</id>
+    <content type="html"><![CDATA[<p>{%img /images/ss.png %}</p>
+
+<p>Unfortunately, Octopress does not compatible with some old browser such as IE6 and IE7。 Webpage looks horrible under those browsers. Although most of the click on this blog is from myself, I still don't want anybody to have the chance to see these horrible pages.</p>
+
+<p>It's impossible for me to modify the code of octopress to make it compatible with old browsers. So my idea is to add some browser detection code, if it found these old IE browsers then redirect user to a page telling them they should upgrade or change browser.</p>
+
+<!--more-->
+
+
+<p>After googling a little bit, I found it's actually very easy to detect browser, just a few lines of java script:</p>
+
+<p>{% codeblock browser detecting code lang:js %}</p>
+
+<script type="text/javascript">
+        var Sys = {};
+        var ua = navigator.userAgent.toLowerCase();
+        if (window.ActiveXObject)
+            Sys.ie = ua.match(/msie ([\d.]+)/)[1]
+        else if (document.getBoxObjectFor)
+            Sys.firefox = ua.match(/firefox\/([\d.]+)/)[1]
+        else if (window.MessageEvent && !document.getBoxObjectFor)
+            Sys.chrome = ua.match(/chrome\/([\d.]+)/)[1]
+        else if (window.opera)
+            Sys.opera = ua.match(/opera.([\d.]+)/)[1]
+        else if (window.openDatabase)
+            Sys.safari = ua.match(/version\/([\d.]+)/)[1];
+        
+        if(Sys.ie) document.write('IE: '+Sys.ie);
+        if(Sys.firefox) document.write('Firefox: '+Sys.firefox);
+        if(Sys.chrome) document.write('Chrome: '+Sys.chrome);
+        if(Sys.opera) document.write('Opera: '+Sys.opera);
+        if(Sys.safari) document.write('Safari: '+Sys.safari);
+    </script>
+
+
+<p>{% endcodeblock %}</p>
+
+<p>Basically it's using regular expression to select a specific userAgent token,  ua.match(); function will return a positive number when selected user token is being found. The user agent token of IE browser is msie x.0, the x representing the version. To jump to certain page when user is using IE6 or 7 simply add :</p>
+
+<pre><code>if (Sys.ie == '7.0' || Sys.ie == '6.0' ) window.location="test.html";;
+</code></pre>
+
+<p>After testing the page using IEtester, I found these code working prefectly well, page loading is very fast, it doesn't have any lag at all. what a simple and elegant solution.</p>
+
+<h2>Reference:</h2>
+
+<p><a href="http://www.cnblogs.com/leadzen/archive/2008/09/06/1285764.html">http://www.cnblogs.com/leadzen/archive/2008/09/06/1285764.html</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The very first post]]></title>
+    <link href="http://sealand210.github.com/did/blog/2012/03/16/the-very-first-post/"/>
+    <updated>2012-03-16T16:35:00+08:00</updated>
+    <id>http://sealand210.github.com/did/blog/2012/03/16/the-very-first-post</id>
+    <content type="html"><![CDATA[<p>In the past two days I've been working my butt off to set up this blog. It's not my first time to set up a website, but it is my first time to set up a octopress site, and host it on a online <code>Rack PasS</code>, and let it pass through china's <code>GFW</code> (a network filter that blocking foreign websites which china government consider as a threat).</p>
+
+<p>{% img left /images/logoa.png 200 200 logo %}</p>
+
+<p>I have also slightly alter the site theme. I like the default theme, so I just made a logo using photoshop and slightly changed the background. The difficult part is modify the <code>SASS</code> to let the page header adjust it’s size automatically, so my blog looks better on smartphones or any other handheld device. Octopress is very well organized, but even still, I had no clue what SASS is, and how to modify it.  After guessing and testing all the SASS code of the default theme I kind of figure out how it works. After a few hours of twisting I finally get it done.<!-- more --></p>
+
+<p>Now, take a look at this beautiful syntax highlitght engine it has:</p>
+
+<p>{% include_code test.js %}</p>
+
+<p>it's one of my wish to have such gorgeous, elegant and user friendly code highlitghter in my blog. I'm in heaven!</p>
+]]></content>
+  </entry>
+  
+</feed>
